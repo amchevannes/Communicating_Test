@@ -1,0 +1,17 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<script>
+  (function (global) {
+      document.getElementById("output").value = global.localStorage.getItem("mySharedData");
+  }(window));
+</script>
+
+</head>
+
+<body>
+  <textarea id="output"></textarea>
+</body>
